@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import './Quiz.css'
 
 const Quiz = (props) => {
@@ -14,6 +14,15 @@ const Quiz = (props) => {
     resetQuiz();
   }, [props.ques]);
   
+  const [isQuizEnd, setIsQuizEnd] = useState(false);
+
+useEffect(() => {
+  if (isQuizEnd) {
+    props.onEnd(correctAnswers , questions.length);
+    setIsQuizEnd(false);
+  }
+}, [isQuizEnd]);
+
   const resetQuiz = () => {
     setActiveQuestion(0);
     setSelectedAnswer("");
@@ -23,32 +32,55 @@ const Quiz = (props) => {
     setUserAnswers([]);
   };
 
+  
+  const { onEnd ,quizzes} = props;
+
+  const [currentQuizIndex, setCurrentQuizIndex] = useState(0);
+  const [quizResults, setQuizResults] = useState([]);
+  const [showres , setShowres] = useState(true);
+  const [quizEnded, setQuizEnded] = useState(false);
+
+  
+
+
   const { questions , category} = quiz;
   const { question, choices, type, correctAnswer } = questions[activeQuestion];
-
   const onClickNext = () => {
     const isCorrect = choices[selectedAnswerIndex] === correctAnswer;
-
+  
     if (isCorrect) {
       setCorrectAnswers((prev) => prev + 1);
     }
-
+  
     setUserAnswers((prev) => [...prev, choices[selectedAnswerIndex]]);
     setSelectedAnswer(isCorrect);
     setSelectedAnswerIndex(null);
-
-    if (activeQuestion !== questions.length - 1) {
-      setActiveQuestion((prev) => prev + 1);
+  
+    if (activeQuestion === questions.length - 1) {
+      setIsQuizEnd(true);
     } else {
-      setActiveQuestion(0);
-      setShowResult(true);
-
-      const score = (correctAnswers * 100) / questions.length;
-      console.log(`Score: ${score}%`);
-
-      props.onEnd(score); // pass the score to the parent component
+      setActiveQuestion((prev) => prev + 1);
     }
   };
+  
+  // const handleQuizEnd = (correctAnswers) => {
+  //   if (currentQuizIndex < quizzes.length - 1) {
+  //     setQuizResults((prevResults) => [...prevResults, correctAnswers]);
+  //     setCurrentQuizIndex(currentQuizIndex + 1);
+  //   } else {
+  //     setQuizResults((prevResults) => [...prevResults, correctAnswers]);
+  //     setShowres(false);
+  //   }
+  
+  //   setQuizEnded(true);
+  // };
+  
+  const checkQuizEnd = (correctAnswers) => {
+    if (activeQuestion === questions.length - 1) {
+      props.onEnd(correctAnswers, questions.length);
+    }
+  };
+  
 
   const onAnswerSelected = (answer, index) => {
     setSelectedAnswerIndex(index);
