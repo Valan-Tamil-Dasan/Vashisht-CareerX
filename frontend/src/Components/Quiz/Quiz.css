@@ -15,7 +15,7 @@ body {
   min-width: 250px;
   background: #f9efdb;
   border-radius: 20px;
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 30px 60px;
 }
 
@@ -129,4 +129,10 @@ body {
   height: 25px;
   border-radius: 30px;
   border: 1px solid #638889;
+}
+
+.quiz-category{
+  font-size: 48px;
+  text-align: center;
+  margin-top: 30px;
 }

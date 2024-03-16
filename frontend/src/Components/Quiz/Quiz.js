@@ -8,7 +8,6 @@ const Quiz = (props) => {
   const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(null);
   const [correctAnswers , setCorrectAnswers] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
-  
   const quiz = props.ques;
 
   React.useEffect(() => {
@@ -24,7 +23,7 @@ const Quiz = (props) => {
     setUserAnswers([]);
   };
 
-  const { questions } = quiz;
+  const { questions , category} = quiz;
   const { question, choices, type, correctAnswer } = questions[activeQuestion];
 
   const onClickNext = () => {
@@ -62,10 +61,16 @@ const Quiz = (props) => {
 
   const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
 
-  return (
+  return (<>
+
+      <div className="quiz-category">
+        {category}
+      </div>
+ 
     <div className="quiz-container">
       {!showResult ? (
         <div>
+          
           <div>
             <span className="active-question-no">
               {addLeadingZero(activeQuestion + 1)}
@@ -119,6 +124,8 @@ const Quiz = (props) => {
         <div>{userAnswers}</div>
       )}
     </div>
+
+    </>
   );
 };
 
