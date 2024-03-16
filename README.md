@@ -36,7 +36,7 @@ This project endeavors to empower secondary school students by offering comprehe
 [Every student at secondary level espically children at rural areas]
 
 ## About the project
-mention few details and features of the project , how it is solving the problem 
+The AI-based career counseling project offers a comprehensive platform for users to navigate their professional journey effectively. Upon registration and login, users gain access to personalized career insights tailored to their unique strengths and interests. The frontend interface features intuitive charts illustrating various career paths, empowering users to explore and understand different domains. Users can then opt to undertake a series of assessments, including aptitude, academic, and personality tests, to assess their skills and preferences accurately. These test results, along with user credentials, are securely stored in the backend database. Leveraging machine learning algorithms, the system analyzes this data to recommend suitable courses and predict individual capabilities, aiding users in making informed career decisions. Through a seamless integration of frontend visualization, backend data management, and AI-driven analysis, the platform serves as a valuable tool for individuals seeking guidance in navigating their professional aspirations.
 
 # Technical implemntaion 
 mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
