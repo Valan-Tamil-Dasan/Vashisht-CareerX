@@ -13,10 +13,10 @@ The AI based career counseling (CareerX) is a comprehensive resource designed to
 
 | Name    | Email           |
 |---------|-----------------|
-| Bharath Aadhitya C | ashwinkumari.cse2022@citchennai.net |
-| I Ashwin Kumar | person2@gmail.com |
-| Vallan Tamil Dasan | person3@gmail.com |
-| Ayyappan MP | person3@gmail.com |
+| Bharath Aadhitya C | bharathadithiyac.cse2022@citchennai.net |
+| I Ashwin Kumar | ashwinkumari.cse2022@citchennai.net |
+| Vallan Tamil Dasan | valantamildasan@gmail.com |
+| Ayyappan MP | ayyappanmp.cse2022@citchennai.net |
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
@@ -30,8 +30,10 @@ The AI based career counseling (CareerX) is a comprehensive resource designed to
 ## Problem statement 
 Making career choices and AI based counselling accessible to every child at secondary level along with aptitude tests and detailed career paths.
 
+The problem statement of making career choices and AI-based counseling accessible to every child at the secondary level, along with aptitude tests and detailed career paths, represents a critical need in education and career development. It addresses the fundamental challenge of guiding young individuals towards meaningful and fulfilling career paths by leveraging technology and personalized support. The severity of this issue is profound, as many students face uncertainty and lack adequate resources to make informed decisions about their futures. By providing accessible AI-based counseling and aptitude tests, we can empower students to explore various career options tailored to their interests, strengths, and aspirations. Additionally, offering detailed career paths ensures that students receive comprehensive guidance throughout their educational journey, leading to better-informed decisions and increased likelihood of success in their chosen fields. This initiative not only benefits individual students but also contributes to societal advancement by fostering a more skilled and satisfied workforce. Therefore, addressing this problem is paramount in ensuring equitable access to opportunities and fostering a generation of confident and purpose-driven individuals ready to navigate the complexities of the modern world.
+
 This project endeavors to empower secondary school students by offering comprehensive career counseling resources. By providing aptitude, domain, and personality tests alongside AI-based counseling, we aim to assist students in understanding their strengths and interests. Early access to these resources facilitates informed decision-making, enabling students to align their academic pursuits with their career aspirations. Ultimately, this initiative seeks to equip students with the tools needed to embark on fulfilling and successful career paths, contributing to their personal growth and societal advancement.
-, mention which gorup of people face that problem
+[Every student at secondary level espically children at rural areas]
 
 ## About the project
 mention few details and features of the project , how it is solving the problem 
