@@ -1,8 +1,8 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="#"> Career X </a><br>
+        <a href="#"> <b>Career X</b> </a><br>
     </b>
-    --------------------------------------- <br>
+    ⭐️-------An AI Based Career Counseling------⭐️ <br>
 </h1>
 
 # [`Website link`](https://vashisht-career-x.vercel.app/)  [`Demo video link `](#) 
@@ -87,8 +87,8 @@ The AI-based career counseling project offers a comprehensive platform for users
 - The system provides a seamless and intuitive platform for users to explore career options based on their strengths and preferences.
 - By leveraging machine learning models with specified accuracies and Flask backend, it offers accurate predictions and personalized advice to users, facilitating informed career decision-making.
 
-(![FlowChart CareerX](https://github.com/Valan-Tamil-Dasan/Vashisht-CareerX/assets/115523703/2b00a5d3-7ae5-4701-b92a-80e025cb5877)
-)
+![FlowChart CareerX](https://github.com/Valan-Tamil-Dasan/Vashisht-CareerX/assets/115523703/2b00a5d3-7ae5-4701-b92a-80e025cb5877)
+
 
 
 ## Techstacks used 
