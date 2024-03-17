@@ -50,7 +50,10 @@ useEffect(() => {
   const onClickNext = () => {
     const isCorrect = choices[selectedAnswerIndex] === correctAnswer;
   
-    if (isCorrect) {
+    if (category == 'Extraversion' || category == 'Conscientiousness'){
+      setCorrectAnswers((prev) => prev + (selectedAnswerIndex+1)/5)
+    }
+    else if (isCorrect) {
       setCorrectAnswers((prev) => prev + 1);
     }
 

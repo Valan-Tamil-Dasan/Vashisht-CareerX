@@ -11,7 +11,7 @@ const QuizContainer = ({ quizzes }) => {
   const [prediction, setPrediction] = useState("");
 
   const handleQuizEnd = (correctAnswers, totalQuestions) => {
-    const score = (correctAnswers * 100) / totalQuestions;
+    const score = (correctAnswers *100) / totalQuestions ;
     setQuizResults((prevResults) => [...prevResults, score]);
 
     if (currentQuizIndex < quizzes.length - 1) {
@@ -34,6 +34,7 @@ const QuizContainer = ({ quizzes }) => {
         <Quiz ques={quizzes[currentQuizIndex]} onEnd={handleQuizEnd} />
       ) : (
         <div>
+          
           <button onClick={getPrediction}>Predict</button>
           <p>{prediction}</p>
         </div>
