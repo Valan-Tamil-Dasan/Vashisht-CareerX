@@ -4,8 +4,9 @@
     </b>
     --------------------------------------- <br>
 </h1>
-# [`Website link`](#)  [`Demo video link `](#) [`Other links `](#)
------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# [`Website link`](https://vashisht-career-x.vercel.app/)  [`Demo video link `](#) 
+
 The AI based career counseling (CareerX) is a comprehensive resource designed to assist secondary level students in making informed career choices. This project includes aptitude, domain, and personality tests to assess students' strengths, interests, and work styles. Each test category provides percentage-based feedback, enabling students to understand their suitability for various career paths. Additionally, AI-based counseling analyzes test results alongside other factors to offer personalized career guidance. For educators, this project offers an accessible way to empower students in exploring and deciding on their future careers early in their educational journey espically for students in secondary students living in rural areas . By facilitating informed decision-making, this project aims to increase students' chances of finding success and satisfaction in their chosen professions.
 
 ## Team Details
@@ -19,12 +20,12 @@ The AI based career counseling (CareerX) is a comprehensive resource designed to
 | Ayyappan MP | ayyappanmp.cse2022@citchennai.net |
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-       <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
+    <img src="" alt="Image 1" style="width: 30%; margin: 5px;">
+    <img src="" alt="Image 2" style="width: 30%; margin: 5px;">
+    <img src="" alt="Image 3" style="width: 30%; margin: 5px;">
+    <img src="" alt="Image 3" style="width: 30%; margin: 5px;">
+    <img src="" alt="Image 1" style="width: 30%; margin: 5px;">
+    <img src="" alt="Image 2" style="width: 30%; margin: 5px;">
 </div>
 
 ## Problem statement 
@@ -44,10 +45,10 @@ mention the approach and how you have solved the problem with the technology , u
 - be consise and specific
 - explain with images and flowcharts
 - 
-![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
+![flowchart]()
 
 ## Techstacks used 
-`nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
+`CSS` , `react` , `flask` , `ml`
 
 ## How to run locally 
 explain detailed steps to run your project locally , example to run a react application 
