@@ -95,11 +95,11 @@ The AI-based career counseling project offers a comprehensive platform for users
 ## Techstacks used 
 `CSS` , `react` , `flask` , `ml` , `pandas` , `scikit-learn`
 
-## How to run locally 
-explain detailed steps to run your project locally , example to run a react application 
-- step 1 : clone the repo 
+## How to run locally  
+- clone the repo 
 ```
 npm install
+cd frontend
 npm start
 ```
 
