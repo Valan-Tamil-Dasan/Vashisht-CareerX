@@ -43,8 +43,8 @@ The AI-based career counseling project offers a comprehensive platform for users
    - Three separate models are trained for each profession using Naive Bayes classification algorithm.
    - Each model is trained on placeholder datasets containing aptitude scores, domain scores, extraversion, and conscientiousness levels as features, and the corresponding profession as the target variable.
    - Model accuracies are as follows:
-     - Doctor Model: 80%
-     - Engineer Model: 80%
+     - Doctor Model: 89%
+     - Engineer Model: 90%
      - Accountant Model: 80%
 
 2. Flask Backend:
