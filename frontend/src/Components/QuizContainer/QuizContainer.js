@@ -22,7 +22,7 @@ const QuizContainer = ({ quizzes }) => {
   };
 
   const getPrediction = async () => {
-    const response = await axios.post("http://localhost:5000/predict", {
+    const response = await axios.post("https://vashisht-careerx.onrender.com/predict", {
       input_features: quizResults,
     });
     setPrediction(response.data.prediction_label);
