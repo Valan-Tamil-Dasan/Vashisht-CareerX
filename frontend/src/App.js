@@ -13,9 +13,9 @@ const App = () => {
       <Router>
         <Routes>
         <Route path="/" element = {<LandingPage />} />
-          <Route path="/doctor" element = {<QuizContainer quizzes={exampleQB}  model= 'doctor' />} />
-          <Route path="/engineer" element = {<QuizContainer quizzes={exampleQB} model = 'engineer' />} />
-          <Route path="/ca" element = {<QuizContainer quizzes={exampleQB} model = 'accountant' />} />
+          <Route path="/doctor" element = {<QuizContainer quizzes={doctorQB}  model= 'doctor' />} />
+          <Route path="/engineer" element = {<QuizContainer quizzes={engineeringQB} model = 'engineer' />} />
+          <Route path="/ca" element = {<QuizContainer quizzes={accQB} model = 'accountant' />} />
         </Routes>
       </Router>
     </>

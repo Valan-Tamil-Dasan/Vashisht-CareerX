@@ -30,7 +30,7 @@ const QuizContainer = ({ quizzes ,model }) => {
 
   const getPrediction = async () => {
     const response = await axios.post(
-      `http://localhost:5000/${model}`,
+      `https://vashisht-careerx.onrender.com/${model}`,
       {
         input_features: quizResults,
         
@@ -56,7 +56,15 @@ const QuizContainer = ({ quizzes ,model }) => {
               </li>
             ))}
           </ul>
+          <div className="quiz-result-buttons">
+
+          
           <button onClick={getPrediction}>Predict</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeF6pXqA8XJjGDdKrCJIbEwdeRKIye3SEhD7KwYeq39fNePEA/viewform?embedded=true" target="_blank">
+          <button>feedback form</button>
+          </a>
+          
+          </div>
           <p className="quiz-result-desc">
             {prediction === "" ? (
               <p></p>
@@ -66,6 +74,7 @@ const QuizContainer = ({ quizzes ,model }) => {
               <p className="nc">Though you haven't yet reached the qualification mark for that specific domain, your dedication to improving in aptitude, personality, and academics is commendable. Keep up the excellent work, and your efforts will surely yield success</p>
             )}
           </p>
+          
           <Footer/>
         </div>
         
