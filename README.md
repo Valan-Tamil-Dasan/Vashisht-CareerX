@@ -102,6 +102,22 @@ npm install
 cd frontend
 npm start
 ```
+In the project directory, you can run:
+
+### `npm start`
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
 # What's next ?
 In our ongoing endeavor to enhance our AI-based career counseling project, we have successfully developed models for three domains, providing insights and guidance to users seeking career direction. These domains have been meticulously trained, achieving an accuracy rate of 75-80% in predictions. However, our commitment to excellence drives us to continuously improve. In the future, we aim to elevate our accuracy to 90% or higher, ensuring even more precise and reliable guidance for individuals navigating their career paths. Our roadmap includes rigorous updates, leveraging advancements in AI technology, and refining our algorithms to deliver unparalleled accuracy and effectiveness. Through these efforts, we are dedicated to empowering individuals with the insights they need to make informed career decisions, facilitating personal and professional growth in an ever-evolving landscape.
