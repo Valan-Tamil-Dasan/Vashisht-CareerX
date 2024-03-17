@@ -20,12 +20,9 @@ The AI based career counseling (CareerX) is a comprehensive resource designed to
 | Ayyappan MP | ayyappanmp.cse2022@citchennai.net |
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="" alt="Image 2" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/Valan-Tamil-Dasan/Vashisht-CareerX/assets/115523703/707f4339-7a3b-48e2-8075-23fbf255d620" alt="Image 3" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/Valan-Tamil-Dasan/Vashisht-CareerX/assets/115523703/72d26073-c43f-4ade-b10f-b4ff8af18d4c" alt="Image 1" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/Valan-Tamil-Dasan/Vashisht-CareerX/assets/115523703/83afd5a6-f502-4e92-a6c4-1d3d91555fd8" alt="Image 2" style="width: 30%; margin: 5px;">
 </div>
 
 ## Problem statement 
@@ -40,12 +37,59 @@ This project endeavors to empower secondary school students by offering comprehe
 The AI-based career counseling project offers a comprehensive platform for users to navigate their professional journey effectively. Upon registration and login, users gain access to personalized career insights tailored to their unique strengths and interests. The frontend interface features intuitive charts illustrating various career paths, empowering users to explore and understand different domains. Users can then opt to undertake a series of assessments, including aptitude, academic, and personality tests, to assess their skills and preferences accurately. These test results, along with user credentials, are securely stored in the backend database. Leveraging machine learning algorithms, the system analyzes this data to recommend suitable courses and predict individual capabilities, aiding users in making informed career decisions. Through a seamless integration of frontend visualization, backend data management, and AI-driven analysis, the platform serves as a valuable tool for individuals seeking guidance in navigating their professional aspirations.
 
 # Technical implemntaion 
-mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
-- use bullets to explain
-- be consise and specific
-- explain with images and flowcharts
-- 
-![flowchart]()
+
+1. Machine Learning Models:
+   - Three separate models are trained for each profession using Naive Bayes classification algorithm.
+   - Each model is trained on placeholder datasets containing aptitude scores, domain scores, extraversion, and conscientiousness levels as features, and the corresponding profession as the target variable.
+   - Model accuracies are as follows:
+     - Doctor Model: 80%
+     - Engineer Model: 80%
+     - Accountant Model: 80%
+
+2. Flask Backend:
+   - Flask is used to create APIs for handling user requests and serving predictions.
+   - API endpoints are designed to receive user inputs, process them, and return predictions.
+   - Flask allows seamless integration of machine learning models for real-time prediction serving.
+
+3. User Interface (Client Side):
+   - Users interact with the system through a user-friendly interface.
+   - They can choose their desired profession and take tests to evaluate their aptitude, domain knowledge, extraversion, and conscientiousness.
+   - Test results are sent to the backend for processing and prediction.
+
+4. Prediction and Advice:
+   - Once the user submits their test results, the backend processes the data using the appropriate machine learning model based on the chosen profession.
+   - The model predicts the user's suitability for the selected profession based on their test scores.
+   - Depending on the prediction, the system provides personalized advice to the user regarding their career choice.
+   - Advice may include suggestions for further skill development, recommended career paths, or encouragement to pursue the chosen profession.
+
+#Workflow:
+1. User Selection:
+   - User selects their desired profession (Doctor, Engineer, or Accountant) through the interface.
+
+2. Test Participation:
+   - User participates in tests to evaluate their aptitude, domain knowledge, extraversion, and conscientiousness.
+
+3. Data Submission:
+   - Test results are submitted to the backend via API endpoints.
+
+4. Prediction:
+   - Backend processes the submitted data using the corresponding machine learning model.
+   - Model predicts the user's suitability for the chosen profession with the specified accuracy.
+
+5. Advice Generation:
+   - Based on the prediction, the system generates personalized advice for the user.
+   - Advice is displayed to the user through the interface, providing guidance on their career choice.
+
+6. Feedback Loop:
+   - Users may use the provided advice to further refine their career goals or make informed decisions about their professional path.
+
+#Conclusion:
+- The system provides a seamless and intuitive platform for users to explore career options based on their strengths and preferences.
+- By leveraging machine learning models with specified accuracies and Flask backend, it offers accurate predictions and personalized advice to users, facilitating informed career decision-making.
+
+(![FlowChart CareerX](https://github.com/Valan-Tamil-Dasan/Vashisht-CareerX/assets/115523703/2b00a5d3-7ae5-4701-b92a-80e025cb5877)
+)
+
 
 ## Techstacks used 
 `CSS` , `react` , `flask` , `ml` , `pandas` , `scikit-learn`
@@ -59,7 +103,7 @@ npm start
 ```
 
 # What's next ?
-tell the future plan that you have for the project , tell the updates that you would wish to bring
+In our ongoing endeavor to enhance our AI-based career counseling project, we have successfully developed models for three domains, providing insights and guidance to users seeking career direction. These domains have been meticulously trained, achieving an accuracy rate of 75-80% in predictions. However, our commitment to excellence drives us to continuously improve. In the future, we aim to elevate our accuracy to 90% or higher, ensuring even more precise and reliable guidance for individuals navigating their career paths. Our roadmap includes rigorous updates, leveraging advancements in AI technology, and refining our algorithms to deliver unparalleled accuracy and effectiveness. Through these efforts, we are dedicated to empowering individuals with the insights they need to make informed career decisions, facilitating personal and professional growth in an ever-evolving landscape.
 
 ## Declaration
 We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
