@@ -44,14 +44,16 @@ useEffect(() => {
 
 
   const { questions , category} = quiz;
+
   const { question, choices, type, correctAnswer } = questions[activeQuestion];
+  
   const onClickNext = () => {
     const isCorrect = choices[selectedAnswerIndex] === correctAnswer;
   
     if (isCorrect) {
       setCorrectAnswers((prev) => prev + 1);
     }
-  
+
     setUserAnswers((prev) => [...prev, choices[selectedAnswerIndex]]);
     setSelectedAnswer(isCorrect);
     setSelectedAnswerIndex(null);
