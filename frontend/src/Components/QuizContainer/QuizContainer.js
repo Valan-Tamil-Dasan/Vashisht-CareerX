@@ -4,7 +4,7 @@ import axios from "axios";
 import "../Quiz/Quiz.css";
 import Footer from "../Footer";
 
-const QuizContainer = ({ quizzes }) => {
+const QuizContainer = ({ quizzes ,model }) => {
   const [currentQuizIndex, setCurrentQuizIndex] = useState(0);
   const [quizResults, setQuizResults] = useState([]);
   const [showres, setShowres] = useState(true);
@@ -30,9 +30,10 @@ const QuizContainer = ({ quizzes }) => {
 
   const getPrediction = async () => {
     const response = await axios.post(
-      "https://vashisht-careerx.onrender.com/predict",
+      `http://localhost:5000/${model}`,
       {
         input_features: quizResults,
+        
       }
     );
     setPrediction(response.data.prediction_label);
