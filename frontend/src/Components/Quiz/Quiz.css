@@ -136,3 +136,22 @@ body {
   text-align: center;
   margin-top: 30px;
 }
+
+.quiz-result-ex{
+display: flex;
+
+text-align: center;
+justify-content: space-between;
+
+
+}
+
+.quiz-result-desc{
+  text-align: center;
+  font-size: 24px;
+  color: #9dbc98;
+}
+
+.nc{
+  color: #d37676;
+}

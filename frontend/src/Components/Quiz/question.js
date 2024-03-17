@@ -427,6 +427,77 @@ export const doctorQB = [
 
 ];
 
+// export const doctorQB = [
+//   {
+//     category: "Extraversion",
+//     questions: [
+//       {
+//         question: "How much do you enjoy spending time with friends?",
+//         choices: [
+//           "Not at all",
+//           "A little bit",
+//           "Moderately",
+//           "Quite a bit",
+//           "Very much",
+//         ],
+//         type: "MCQ",
+//         correctAnswer: " ",
+//       },
+      
+//     ],
+//   },
+//   {
+//     category: "Conscientiousness",
+//     questions: [
+//       {
+//         question:
+//           "How important is it for you to plan and organize your tasks or activities?",
+//         choices: [
+//           "Not important at all",
+//           "A little important",
+//           "Moderately important",
+//           "Very important",
+//           "Extremely important",
+//         ],
+//         type: "MCQ",
+//         correctAnswer: " ",
+//       },
+//     ],
+//   },
+//   {
+//     category: "Aptitude",
+//     questions: [
+//       {
+//         question:
+//           "If the price of a shirt is increased by 20%, by how much percent should its consumption be reduced so that the expenditure remains the same?",
+//         choices: ["16.67%", "14.32%", "16.50%", "12.84%"],
+//         type: "MCQs",
+//         correctAnswer: "16.67%",
+//       },
+      
+//     ],
+//   },
+//   {
+//     category: "Domain Test",
+//     questions: [
+//       {
+//         question:
+//           "A _________ fuses with a _______ in generative fertilization",
+//         choices: [
+//           "Secondary nucleus, polar nucleus",
+//           "Polar nucleus, female gamete",
+//           "Male gamete, female gamete",
+//           "All of the above",
+//         ],
+//         type: "MCQs",
+//         correctAnswer: "Male gamete, female gamete",
+//       },
+     
+//     ],
+//   },
+  
+
+// ];
 
 export const engineeringQB = [
   {
